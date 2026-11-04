@@ -19,3 +19,22 @@ using namespace std;
 
 stack overflow occurs when the stack memory is exhausted due to too many nested function calls, which can happen in cases of deep recursion. To avoid stack overflow, it is important to ensure that the base case is reached in a reasonable number of recursive calls.
 */
+// int cnt=0;
+// void print (){
+//     if(cnt==5){
+//         return;
+//     cout<< cnt<<endl;
+//     cnt++;
+//     print();
+// }
+// int main(){
+//     #ifndef ONLINE_JUDGE
+//     freopen("input.txt","r",stdin);
+//     freopen("output.txt","w",stdout);
+//     #endif
+//     print();
+//     return 0;
+// }
+
+/* recursion tree - A visual representation of how a recursive function executes, showing the function calls and their relationships.
+*/
