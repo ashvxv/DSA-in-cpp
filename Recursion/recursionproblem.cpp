@@ -46,16 +46,27 @@ int main(){
 using namespace std;
 void name(int i,int n){
     if (i>n)return;
-    cout<<"Ashwani"<<endl;
     name(i+1,n);
+    cout<<i<<endl;
 }
 int main(){
     int n;
     cin>>n;
     name(1,n);
 }
-
-
 */
-
+/*
+#include<iostream>
+using namespace std;
+void name(int i,int n){
+    if (i<1)return;
+    name(i-1,n);
+    cout<<i<<endl;
+}
+int main(){
+    int n;
+    cin>>n;
+    name(n,n);
+}
+*/
 
