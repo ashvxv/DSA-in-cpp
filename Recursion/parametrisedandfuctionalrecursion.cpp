@@ -20,7 +20,7 @@ int main()
 }
     */
 //to print sum of n number using functional recursion
-/*
+
 int sum(int n){
     if(n==0){
         return 0;
@@ -34,4 +34,3 @@ int main(){
     cout << sum(n);
     return 0;
 }
-    */
